@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: bisque;
+}
+.container{
+    background-color: aqua;
+    width: 35rem;
+    height: 86vh;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 5px;
+   
+}
+.container h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px; 
+    padding: 5px;
+    margin-bottom: 80px;
+    
+}
+.input1 p{
+    font: 1em sans-serif;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.input1 input{
+    width: 50%;
+    padding: 5px ;
+    padding-left: 3mm;
+    border-radius: 2rem;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    font-style: oblique;
+}
+.form_to{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.form_to i{
+    width: 40px;
+    height: auto;
+    margin-left: 41px;
+}
+
+
+.From p{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-left: 42px;
+}
+
+.From img{
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-left: 55px;
+}
+.From select{
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 0.2rem;
+    padding: 2px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.to p{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-left: 41px;
+}
+.to img{
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-left: 55px;
+}
+.to select{
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 0.2rem;
+    padding: 2px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.disply{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    margin-top: 30px;
+    padding: 8px 4px;
+    border-radius: 0.5rem;
+    background-color: chocolate;
+    cursor: pointer;
+}
+.btn:hover{
+    padding: 10px 6px;
+    background-color: blueviolet;
+}
